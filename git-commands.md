@@ -22,10 +22,12 @@
 
 ### Commits
 
-| Command             | Description                                    |
-| ------------------- | ---------------------------------------------- |
-| `git show [commit]` | Display the content changes of specific commit |
-| `git show [commit]` | Display the content changes of specific commit |
+| Command                                    | Description                                                                                      |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `git show [commit]`                        | Display the content changes of specific commit                                                   |
+| `git log | grep '[commit]'`                | Check if a branch has a specific commit                                                          |
+| `git log --all --author=luis --grep='733'` | Find all the commits by specific filter                                                          |
+| `git reset --hard [commit]`                | Reset your branch to specific commit (It will remove the commits created after the commit given) |
 
 ### Sharing & Updating Projects
 
@@ -39,6 +41,14 @@
 | `git pull origin [branch name]`                                                   | Pull changes from remote repository                         |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git`     | Add a remote repository                                     |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH                     |
+
+### Delete & Remove files
+
+| Command                                    | Description                                       |
+| ------------------------------------------ | ------------------------------------------------- |
+| `git clean -n`                             | Check which files will be removed                 |
+| `git clean -f`                             | Remove untracted files to clean your local branch |
+| `git log --all --author=luis --grep='733'` | Find all the commits by specific filter           |
 
 ### Bibliography
 
