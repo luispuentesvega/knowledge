@@ -25,7 +25,6 @@
 | Command                                    | Description                                                                                      |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 | `git show [commit]`                        | Display the content changes of specific commit                                                   |
-| `git log | grep '[commit]'`                | Check if a branch has a specific commit                                                          |
 | `git log --all --author=luis --grep='733'` | Find all the commits by specific filter                                                          |
 | `git reset --hard [commit]`                | Reset your branch to specific commit (It will remove the commits created after the commit given) |
 
