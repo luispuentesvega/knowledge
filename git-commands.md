@@ -16,7 +16,6 @@
 | `git checkout -`                                     | Switch to the branch last checked out                   |
 | `git checkout -- [file-name.txt]`                    | Discard changes to a file                               |
 | `git merge [branch name]`                            | Merge a branch into the active branch                   |
-| `git merge [source branch] [target branch]`          | Merge a branch into a target branch                     |
 | `git stash`                                          | Stash changes in a dirty working directory              |
 | `git stash clear`                                    | Remove all stashed entries                              |
 
@@ -48,6 +47,15 @@
 | `git clean -n`                             | Check which files will be removed                 |
 | `git clean -f`                             | Remove untracted files to clean your local branch |
 | `git log --all --author=luis --grep='733'` | Find all the commits by specific filter           |
+
+### Inspection & Comparison
+
+| Command                                    | Description                    |
+| ------------------------------------------ | ------------------------------ |
+| `git log`                                  | View changes                   |
+| `git log --summary`                        | View changes (detailed)        |
+| `git log --oneline`                        | View changes (briefly)         |
+| `git diff [source branch] [target branch]` | Preview changes before merging |
 
 ### Bibliography
 
