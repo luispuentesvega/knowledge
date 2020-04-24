@@ -21,6 +21,41 @@ div {
 }
 ```
 
+### Examples
+This is one example that will take 4 seconds to increase the font-size, and it will wait 2s after the div is hover to start the animation.
+
+```css
+  #delay {
+    font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+  }
+  
+  #delay: hover {
+    font-size: 36px;
+  }
+```
+
+Multipe animated property
+```css
+  .box {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, background-color:2s, transform: 2s;
+  }
+  
+  .box: hover {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+  }
+```
+
+### Common Sample
+
 
 - [List of css properties that allows add transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
 
