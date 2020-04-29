@@ -18,6 +18,8 @@
 | `git merge [branch name]`                            | Merge a branch into the active branch                   |
 | `git stash`                                          | Stash changes in a dirty working directory              |
 | `git stash clear`                                    | Remove all stashed entries                              |
+| `git cherry-pick <commit-hash>`                      | Add commits manually to your current branch             |
+
 
 ### Commits
 
