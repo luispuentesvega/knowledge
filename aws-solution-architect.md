@@ -25,6 +25,11 @@
 - **EC2** : Elastic Compute Cloud
 - **MFA** : Multi Factor Authentication
 
+## Technical Concepts
+- Throughput: Amount of data that can be sent and received within a timeframe
+- Low latency: Low latency describes a computer network that is optimized to process a very high volume of data messages with minimal delay (latency)
+- Networking redundancy: It is a method for ensuring network availability in case of failure
+- 
 
 ## Links
 - [S3 FAQs](https://aws.amazon.com/s3/faqs/)
